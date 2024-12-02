@@ -90,16 +90,14 @@ The code was further optimized by running it with 15 different compiler flags to
 ## Timing Results
 
 Here is the table of measurement results showing the total and average execution time for each function across 30 images:
-Function                 Total Time (secs)   Average Time (secs)
-------------------------------------------------------------
-make_gaussian_kernel     0.000152            0.000005
-blurX                    5.426746            0.180892
-blurY                    8.389991            0.279666
-gaussian_smooth          13.876310           0.462544
-derivative_x_y           2.124179            0.070806
-magnitude_x_y            1.807023            0.060234
-non_max_supp             3.875581            0.129186
-apply_hysteresis         4.212161            0.140405
-canny                    26.027459           0.867582
-
-
+| Function               | Total Time (secs) | Average Time (secs) |
+|------------------------|-------------------|---------------------|
+| `make_gaussian_kernel`  | 0.000152          | 0.000005            |
+| `blurX`                 | 5.426746          | 0.180892            |
+| `blurY`                 | 8.389991          | 0.279666            |
+| `gaussian_smooth`       | 13.876310         | 0.462544            |
+| `derivative_x_y`       | 2.124179          | 0.070806            |
+| `magnitude_x_y`        | 1.807023          | 0.060234            |
+| `non_max_supp`         | 3.875581          | 0.129186            |
+| `apply_hysteresis`     | 4.212161          | 0.140405            |
+| `canny`                | 26.027459         | 0.867582            |
