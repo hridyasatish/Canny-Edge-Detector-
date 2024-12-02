@@ -101,3 +101,7 @@ Here is the table of measurement results showing the total and average execution
 | `non_max_supp`         | 3.875581          | 0.129186            |
 | `apply_hysteresis`     | 4.212161          | 0.140405            |
 | `canny`                | 26.027459         | 0.867582            |
+### Edge Detected Image
+![Edge Detected Image](./Engineering_Tower_Edge_Detection.png)
+
+This image is a result of applying the SystemC edge detection algorithm, effectively capturing the structural outlines of the Engineering Tower. The SystemC implementation provides precise control over timing and performance, making it suitable for applications requiring high efficiency and real-time processing capabilities.
